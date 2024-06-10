@@ -119,8 +119,9 @@
         ]
       }
     </script>
+    <link rel="preload" as="image" href="./images/hero-banner.jpg" />
   </head>
-  <body>
+  <body id="top">
     <!--
       - Header
      -->
@@ -281,7 +282,7 @@
               <li>
                 <div class="service_card">
                   <div class="card_icon">
-                    <i class="flaticon_shampoo"></i>
+                    <i class="flaticon-shampoo"></i>
                   </div>
                   <h3 class="h3">
                     <a href="#" class="card_title"> Hair Washing </a>
@@ -329,6 +330,28 @@
                   </div>
                   <h3 class="h3">
                     <a href="#" class="card_title">Stylist Shaving</a>
+                  </h3>
+                  <p class="card_text">
+                    Sit amet consectetur adipisci elit sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                  <a href="#" class="card_btn" aria-label="more">
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
+
+              <li>
+                <div class="service_card">
+                  <div class="card_icon">
+                    <i class="flaticon-hot-stone"></i>
+                  </div>
+                  <h3 class="h3">
+                    <a href="#" class="card_title">Body Treatments</a>
                   </h3>
                   <p class="card_text">
                     Sit amet consectetur adipisci elit sed do eiusmod tempor
@@ -798,8 +821,342 @@
             </ul>
           </div>
         </section>
+
+        <!--
+          - #APPOINTMENT
+         -->
+
+        <section
+          class="section appoin"
+          id="appointment"
+          aria-label="appointment"
+        >
+          <div class="container">
+            <div class="appoin_card">
+              <figure
+                class="card_banner img_holder"
+                style="--width: 250; --height: 774"
+              >
+                <img
+                  src="./images/appoin-banner-1.jpg"
+                  width="250"
+                  height="774"
+                  loading="lazy"
+                  alt=""
+                  class="img_cover"
+                />
+              </figure>
+
+              <div class="card_content">
+                <h2 class="h2 section_title">Make Appointment</h2>
+
+                <p class="section_text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                  nulla eius quos assumenda facilis culpa.
+                </p>
+
+                <form action="" class="appoin_form">
+                  <div class="input_wrapper">
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Your Full Name"
+                      required
+                      class="input_field"
+                    />
+                    <input
+                      type="email"
+                      name="email_address"
+                      placeholder="Email Address"
+                      required
+                      class="input_field"
+                    />
+                  </div>
+
+                  <div class="input_wrapper">
+                    <input
+                      type="text"
+                      name="phone"
+                      placeholder="Phone Number"
+                      class="input_field"
+                    />
+
+                    <select name="category" class="input_field">
+                      <option value="Select category">Select category</option>
+                      <option value="Beauty & spa">Beauty &amp; spa</option>
+                      <option value="Body massage">Body massage</option>
+                      <option value="Shaving & Facial">
+                        Shaving &amp; Facial
+                      </option>
+                      <option value="Hair Color">Hair Color</option>
+                    </select>
+                  </div>
+
+                  <input
+                    type="date"
+                    name="date"
+                    required
+                    class="input_field date"
+                  />
+
+                  <textarea
+                    name="message"
+                    placeholder="Write Message"
+                    class="input_field"
+                  ></textarea>
+
+                  <button type="submit" class="form_btn">
+                    <span class="span">Appointment Now</span>
+
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </form>
+              </div>
+
+              <figure
+                class="card_banner img_holder"
+                style="--width: 250; --height: 774"
+              >
+                <img
+                  src="./images/appoin-banner-2.jpg"
+                  width="250"
+                  height="774"
+                  loading="lazy"
+                  alt=""
+                  class="img_cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
       </article>
     </main>
+
+    <!--
+          - #FOOTER
+         -->
+
+    <footer
+      class="footer has_bg_image"
+      style="background-image: url(./images/footer-bg.png)"
+    >
+      <div class="container">
+        <div class="footer_top">
+          <div class="footer_brand">
+            <a href="#" class="logo">
+              <img
+                class="johnny_logo footer_logo"
+                src="Johnnys_images/2.png"
+                alt="Barbershop Logo"
+              />
+            </a>
+
+            <form action="" class="input_wrapper">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Enter Your Email"
+                required
+                class="email_field"
+              />
+
+              <button type="submit" class="btn has_before">
+                <span class="span">Subscribe Now</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </div>
+
+          <div class="footer_link_box">
+            <ul class="footer_list">
+              <li>
+                <p class="footer_list_title">Quick Links</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer_link has_before"> Our Services </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer_link has_before"> Meet Our Team </a>
+              </li>
+              <li>
+                <a href="#" class="footer_link has_before"> Our Portfolio </a>
+              </li>
+              <li>
+                <a href="#" class="footer_link has_before"> Need A Career? </a>
+              </li>
+              <li>
+                <a href="#" class="footer_link has_before"> News &amp; Blog </a>
+              </li>
+            </ul>
+
+            <ul class="footer_list">
+              <li>
+                <p class="footer_list_title">Services</p>
+              </li>
+
+              <li>
+                <a href="#" class="footer_link has_before"> Hair Cutting </a>
+              </li>
+
+              <li>
+                <a href="#" class="footer_link has_before">
+                  Shaving &amp; Design
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer_link has_before"> Hair Colors </a>
+              </li>
+              <li>
+                <a href="#" class="footer_link has_before">
+                  Beauty &amp; Spa
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer_link has_before"> Body Massages </a>
+              </li>
+            </ul>
+
+            <ul class="footer_list">
+              <li>
+                <p class="footer_list_title">Recent News</p>
+              </li>
+
+              <li>
+                <div class="blog_card">
+                  <figure
+                    class="card_banner img_holder"
+                    style="--width: 70; --height: 75"
+                  >
+                    <img
+                      src="./images/footer-blog-1.jpg"
+                      width="70"
+                      height="75"
+                      loading="lazy"
+                      alt="The beginners guide to Henna Brows in Brisbane"
+                      class="img_cover"
+                    />
+                  </figure>
+
+                  <div class="card_content">
+                    <h3>
+                      <a href="#" class="card_title">
+                        The beginners guide to Henna Brows in Brisbane
+                      </a>
+                    </h3>
+
+                    <div class="card_date">
+                      <ion-icon
+                        name="calendar-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+
+                      <time datetime="2022-08-25">25 August 2022</time>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="blog_card">
+                  <figure
+                    class="card_banner img_holder"
+                    style="--width: 70; --height: 75"
+                  >
+                    <img
+                      src="./images/footer-blog-2.jpg"
+                      width="70"
+                      height="75"
+                      loading="lazy"
+                      alt="How do I get rid of unwanted hair on my face?"
+                      class="img_cover"
+                    />
+                  </figure>
+
+                  <div class="card_content">
+                    <h3>
+                      <a href="#" class="card_title">
+                        How do I get rid of unwanted hair on my face?
+                      </a>
+                    </h3>
+
+                    <div class="card_date">
+                      <ion-icon
+                        name="calendar-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+
+                      <time datetime="2022-08-25">25 August 2022</time>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="footer_list">
+              <li>
+                <p class="footer_list_title">Contact Us</p>
+              </li>
+
+              <li class="footer_list_item">
+                <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+                <address class="contact_link">
+                  7528 Roberts Ave. Palm Bay, FL 32907
+                </address>
+              </li>
+
+              <li class="footer_list_item">
+                <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+                <a href="tel:+0123456789" class="contact_link"
+                  >+012 (345) 67 89
+                </a>
+              </li>
+
+              <li class="footer_list_item">
+                <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                <span class="contact_link">Sun - Friday, 08 am - 09 pm </span>
+              </li>
+
+              <li class="footer_list_item">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <a href="mailto: support@gmail.com" class="contact_link"
+                  >support@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer_bottom">
+          <p class="copyright">
+            &copy; 2022 <a href="#" class="copyright_link">codewithsadee</a> .
+            All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!--
+      - #BACK TO TOP
+     -->
+
+    <a
+      href="#top"
+      class="back_top_btn"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
 
     <!-- ION ICON  -->
     <script
