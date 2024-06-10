@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+          - #APPOINTMENT
+         -->
+
+    <section class="section appoin" id="appointment" aria-label="appointment">
+      <div class="container">
+        <div class="appoin_card">
+          <figure
+            class="card_banner img_holder"
+            style="--width: 250; --height: 774"
+          >
+            <img
+              src="./images/appoin-banner-1.jpg"
+              width="250"
+              height="774"
+              loading="lazy"
+              alt=""
+              class="img_cover"
+            />
+          </figure>
+
+          <div class="card_content">
+            <h2 class="h2 section_title">Make Appointment</h2>
+
+            <p class="section_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+              nulla eius quos assumenda facilis culpa.
+            </p>
+
+            <form action="" class="appoin_form">
+              <div class="input_wrapper">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Full Name"
+                  required
+                  class="input_field"
+                />
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Email Address"
+                  required
+                  class="input_field"
+                />
+              </div>
+
+              <div class="input_wrapper">
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Phone Number"
+                  class="input_field"
+                />
+
+                <select name="category" class="input_field">
+                  <option value="Select category">Select category</option>
+                  <option value="Beauty & spa">Beauty &amp; spa</option>
+                  <option value="Body massage">Body massage</option>
+                  <option value="Shaving & Facial">Shaving &amp; Facial</option>
+                  <option value="Hair Color">Hair Color</option>
+                </select>
+              </div>
+
+              <input
+                type="date"
+                name="date"
+                required
+                class="input_field date"
+              />
+
+              <textarea
+                name="message"
+                placeholder="Write Message"
+                class="input_field"
+              ></textarea>
+
+              <button type="submit" class="form_btn">
+                <span class="span">Appointment Now</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </div>
+
+          <figure
+            class="card_banner img_holder"
+            style="--width: 250; --height: 774"
+          >
+            <img
+              src="./images/appoin-banner-2.jpg"
+              width="250"
+              height="774"
+              loading="lazy"
+              alt=""
+              class="img_cover"
+            />
+          </figure>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
