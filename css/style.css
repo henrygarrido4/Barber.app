@@ -734,7 +734,7 @@ textarea.input_field {
 }
 
 /* --------------------------------------- *\
-    # GALLERY
+    # FOOTER
 \* --------------------------------------- */
 
 .footer_logo {
@@ -829,40 +829,6 @@ textarea.input_field {
 
 .footer_link:is(:hover, :focus)::before {
   background-color: var(--white);
-}
-
-.blog_card {
-  gap: 25px;
-  margin-block-start: 20px;
-}
-
-.blog_card .card_banner {
-  flex-shrink: 0;
-}
-
-.blog_card .card_title {
-  color: var(--white);
-  font-family: var(--ff-oswald);
-  font-size: var(--fs-14);
-  font-weight: var(--fw-500);
-  line-height: 1.5;
-  margin-block-end: 5px;
-  transition: var(--transition-1);
-}
-
-.blog_card .card_title:is(:hover, :focus) {
-  color: var(--indian-yellow);
-}
-
-.blog_card .card_date {
-  gap: 5px;
-  font-size: var(--fs-13);
-  text-transform: uppercase;
-  color: var(--white_50);
-}
-
-.blog_card .card_date ion-icon {
-  --ionicon-stroke-width: 50px;
 }
 
 .footer_list_item {
@@ -1433,7 +1399,7 @@ a.contact_link:is(:hover, :focus) {
   */
 
   .footer_link_box {
-    grid-template-columns: 0.5fr 0.5fr 1fr 0.8fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   /*

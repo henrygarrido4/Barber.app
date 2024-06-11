@@ -47,6 +47,10 @@
 }
 
 .gallery-background {
-  background: linear-gradient(135deg, hsl(36, 61%, 58%), hsl(36, 61%, 85%));
-  color: #000000; /* Ensuring the text is black for readability */
+  background: linear-gradient(
+    135deg,
+    var(--indian-yellow),
+    var(--eerie-black-1)
+  );
+  color: var(--white); /* White text for readability */
 }
